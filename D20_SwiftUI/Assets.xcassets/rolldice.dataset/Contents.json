@@ -2,7 +2,8 @@
   "data" : [
     {
       "filename" : "rolldice.mp3",
-      "idiom" : "universal"
+      "idiom" : "universal",
+      "universal-type-identifier" : ""
     }
   ],
   "info" : {

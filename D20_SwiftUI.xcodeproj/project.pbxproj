@@ -9,23 +9,25 @@
 /* Begin PBXBuildFile section */
 		EE30447C255AD9DD00BB444C /* D20_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE30447B255AD9DD00BB444C /* D20_SwiftUIApp.swift */; };
 		EE30447E255AD9DD00BB444C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE30447D255AD9DD00BB444C /* ContentView.swift */; };
-		EE304480255AD9DF00BB444C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE30447F255AD9DF00BB444C /* Assets.xcassets */; };
 		EE304483255AD9DF00BB444C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE304482255AD9DF00BB444C /* Preview Assets.xcassets */; };
 		EE304493255ADBF200BB444C /* rolldice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE304490255ADBF200BB444C /* rolldice.mp3 */; };
 		EE304494255ADBF200BB444C /* failwah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE304491255ADBF200BB444C /* failwah.mp3 */; };
 		EE304495255ADBF200BB444C /* torpedo.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EE304492255ADBF200BB444C /* torpedo.mp3 */; };
+		EEA18176255BA4C2001B5108 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEA18175255BA4C2001B5108 /* Assets.xcassets */; };
+		EEA1817B255BA7EF001B5108 /* zfanfare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEA1817A255BA7EF001B5108 /* zfanfare.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EE304478255AD9DD00BB444C /* D20_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = D20_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE30447B255AD9DD00BB444C /* D20_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = D20_SwiftUIApp.swift; sourceTree = "<group>"; };
 		EE30447D255AD9DD00BB444C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		EE30447F255AD9DF00BB444C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE304482255AD9DF00BB444C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		EE304484255AD9DF00BB444C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE304490255ADBF200BB444C /* rolldice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = rolldice.mp3; sourceTree = "<group>"; };
 		EE304491255ADBF200BB444C /* failwah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = failwah.mp3; sourceTree = "<group>"; };
 		EE304492255ADBF200BB444C /* torpedo.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = torpedo.mp3; sourceTree = "<group>"; };
+		EEA18175255BA4C2001B5108 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEA1817A255BA7EF001B5108 /* zfanfare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = zfanfare.mp3; path = ../../../../Desktop/DiceAppSwift/DiceAppSwift/Sounds/zfanfare.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,7 +63,7 @@
 				EE30448F255ADBBB00BB444C /* Sounds */,
 				EE30447B255AD9DD00BB444C /* D20_SwiftUIApp.swift */,
 				EE30447D255AD9DD00BB444C /* ContentView.swift */,
-				EE30447F255AD9DF00BB444C /* Assets.xcassets */,
+				EEA18175255BA4C2001B5108 /* Assets.xcassets */,
 				EE304484255AD9DF00BB444C /* Info.plist */,
 				EE304481255AD9DF00BB444C /* Preview Content */,
 			);
@@ -79,6 +81,7 @@
 		EE30448F255ADBBB00BB444C /* Sounds */ = {
 			isa = PBXGroup;
 			children = (
+				EEA1817A255BA7EF001B5108 /* zfanfare.mp3 */,
 				EE304491255ADBF200BB444C /* failwah.mp3 */,
 				EE304490255ADBF200BB444C /* rolldice.mp3 */,
 				EE304492255ADBF200BB444C /* torpedo.mp3 */,
@@ -146,8 +149,9 @@
 				EE304495255ADBF200BB444C /* torpedo.mp3 in Resources */,
 				EE304493255ADBF200BB444C /* rolldice.mp3 in Resources */,
 				EE304494255ADBF200BB444C /* failwah.mp3 in Resources */,
+				EEA1817B255BA7EF001B5108 /* zfanfare.mp3 in Resources */,
 				EE304483255AD9DF00BB444C /* Preview Assets.xcassets in Resources */,
-				EE304480255AD9DF00BB444C /* Assets.xcassets in Resources */,
+				EEA18176255BA4C2001B5108 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
